@@ -9,7 +9,7 @@ def home(request):
         "current_year": datetime.date.today().year,
         "site_url": "https://jaya-prakash-portfolio.netlify.app",
         "name": "Jaya Prakash T",
-        "tagline": "MCA Student | Python Developer | Learner",
+        "tagline": "JP MCA Student | Python Developer | Learner",
         "profile": (
             "Optimistic MCA student with hands-on experience in Python-based projects, "
             "database management, and web technologies. Passionate about building "
