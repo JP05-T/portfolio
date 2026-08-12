@@ -60,6 +60,24 @@ def home(request):
             "Leadership",
             "Effective Communication",
         ],
+        "internship": {
+            "role": "Intern - Artificial Intelligence (Academic Project)",
+            "company": "Nexware Technologies Pvt Ltd",
+            "location": "Coimbatore, Tamil Nadu, India",
+            "years": "January 2026 - May 2026",
+            "image": "certificates/nexware-internship.png",
+            "project": (
+                "Visual Audit Framework for Preventing E-Commerce Delivery and Return "
+                "Fraud"
+            ),
+            "details": (
+                "Completed a 5-month internship with an academic project in the "
+                "Artificial Intelligence domain using Python and MySQL. Gained "
+                "hands-on experience in industry-relevant technologies, problem-solving, "
+                "and system optimization, showcasing strong analytical skills, "
+                "adaptability, and a commitment to learning."
+            ),
+        },
         "projects": [
             {
                 "title": "Personal Portfolio Website",
