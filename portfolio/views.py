@@ -65,6 +65,7 @@ def home(request):
             "company": "Nexware Technologies Pvt Ltd",
             "location": "Coimbatore, Tamil Nadu, India",
             "years": "January 2026 - May 2026",
+            "pdf": "certificates/nexware-internship.pdf",
             "project": (
                 "Visual Audit Framework for Preventing E-Commerce Delivery and Return "
                 "Fraud"

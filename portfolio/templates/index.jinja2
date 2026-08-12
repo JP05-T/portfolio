@@ -41,7 +41,8 @@
                         <h6 class="text-primary">{{ internship.company }} <span class="text-muted">&middot; {{ internship.location }}</span></h6>
                         <p class="text-muted small"><i class="bi bi-calendar3"></i> {{ internship.years }}</p>
                         <p class="mb-1"><strong>Project:</strong> {{ internship.project }}</p>
-                        <p class="card-text mb-0">{{ internship.details }}</p>
+                        <p class="card-text">{{ internship.details }}</p>
+                        <a href="{{ 'static/' ~ internship.pdf }}" class="btn btn-sm btn-outline-primary mt-2" download><i class="bi bi-download"></i> Download Internship Certificate</a>
                     </div>
                 </div>
             </div>
